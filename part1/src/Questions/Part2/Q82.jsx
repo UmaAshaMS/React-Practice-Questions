@@ -11,7 +11,6 @@ export default function LightsGrid() {
   const [isDeactivating, setIsDeactivating] =
     useState(false);
 
-  /* ---------- LIGHT CLICK ---------- */
   const handleClick = (index) => {
     if (active[index] || isDeactivating) return;
 
